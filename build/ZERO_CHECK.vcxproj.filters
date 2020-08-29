@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\c00712db441ef2043f9482be550252c6\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{19B3C743-81A5-3D4C-9027-DA89217CAECE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

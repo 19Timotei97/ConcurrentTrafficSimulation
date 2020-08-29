@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DE91CC35-3199-3B25-BAAD-E4E8CBBE090C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

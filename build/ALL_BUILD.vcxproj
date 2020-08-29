@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{82D60D6B-36B3-30C8-8DB5-B9DA56D56289}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Downloads\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation -BD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build --check-stamp-file D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation -BD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build --check-stamp-file D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation -BD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build --check-stamp-file D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation -BD:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build --check-stamp-file D:/CTS_Udacity/ConcurrentTrafficSimulation/ConcurrentTrafficSimulation/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\3.18.2\CMakeSystem.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;D:\Downloads\opencv\build\x64\vc15\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\ZERO_CHECK.vcxproj">
+      <Project>{613CF3EC-D358-38A5-9CEE-E6801A40BD06}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CTS_Udacity\ConcurrentTrafficSimulation\ConcurrentTrafficSimulation\build\traffic_simulation.vcxproj">
+      <Project>{33781CBC-1297-383D-83FE-A26D20B90DEF}</Project>
+      <Name>traffic_simulation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
