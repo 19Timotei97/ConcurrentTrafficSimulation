@@ -1,6 +1,6 @@
-# CPPND: a Concurrent Traffic Simulation
+# Concurrent Traffic Simulation created with c++ Programming Language
 
-<img src="data/traffic_simulation.gif"/>
+<img src="data/WorkingTrafficSimulator.gif"/>
 
 This is the project for the fourth course in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213): Concurrency. 
 
